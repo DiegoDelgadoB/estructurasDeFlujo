@@ -52,7 +52,8 @@ console.log('Esto se ejecuta después del if');
  */
 
 // Estructura de una prueba lógica: dato operadorComparación dato
- 
+
+// instrucción if
 var datoUno = 5;
 var datoDos = 5;
 console.log(`verificando el valor de la prueba lógica: ${datoUno != datoDos}`);
@@ -62,3 +63,17 @@ if(datoUno > datoDos){
 }
 
 console.log('Esto se ejecuta después del if');
+
+// instrucción if - else
+// definir el color favorito de una persona entre dos opciones: verde y rojo
+var colorFavorito = prompt('Ingresar tu  color favorito entre verde y rojo');
+if(colorFavorito == 'verde'){
+    console.log(`tu color favorito es: ${colorFavorito}`);
+}else{
+    console.log(`tu color favorito es: ${colorFavorito}`);
+}
+
+// instrucción if - if
+// definir el color favorito de una persona entre tres opciones: verde, rojo y amarillo
+
+
