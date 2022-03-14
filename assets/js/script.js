@@ -74,6 +74,15 @@ if(colorFavorito == 'verde'){
 }
 
 // instrucción if - if
-// definir el color favorito de una persona entre tres opciones: verde, rojo y amarillo
+// definir el color favorito de una persona entre tres opciones: 
+// verde, rojo y amarillo
+if(colorFavorito == 'verde'){
+    console.log(`tu color favorito es: verde`);
+}else if(colorFavorito == 'rojo'){
+    console.log(`tu color favorito es: rojo`);
+} else{
+    console.log(`tu color favorito es: amarillo`);
+}
+
 
 
